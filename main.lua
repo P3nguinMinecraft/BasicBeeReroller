@@ -1,9 +1,3 @@
-# BasicBeeReroller
-Bee Swarm Simulator Script for rerolling for Gifted Basic Bee
-
-## Usage
-**Copy [this](https://github.com/P3nguinMinecraft/BasicBeeReroller/blob/main/main.lua) script below into your executor**
-```lua
 -- Main Script, COPY THIS TO YOUR EXECUTOR
 getgenv().purchaseBasicEgg = true -- if you want to purchase an egg every roll
 getgenv().jelly = "RoyalJelly" -- use event bee if possible, such as FestiveBeeJelly to not use any royal jellies
@@ -13,4 +7,3 @@ getgenv().slotX = 1 -- slot horizontally, counting to the right
 
 local module = loadstring("https://github.com/P3nguinMinecraft/BasicBeeReroller/blob/main/loader.lua")
 module.init()
-```
